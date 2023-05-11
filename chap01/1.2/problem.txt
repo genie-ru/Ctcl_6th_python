@@ -1,0 +1,6 @@
+順列：二つの文字列が与えられたとき、片方がもう片方の並び替えになっているかどうかを決定するメソッドを書いてください。
+def check_permution(str1:str, str2:str) -> str:
+
+if len(str1) != len(str2):でstr1とstr2の長さが異なっていたらFalseを返す。
+Counterクラスを使用し、str1の各文字の出現回数を数える。
+str2の各文字に対して、その文字がcounterに存在するか、もし存在しなければFalse
